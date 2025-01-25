@@ -26,7 +26,7 @@ jobs:
           images: ../../Docker/Dockerfile
 
       - name: Build and push Docker image
-        uses: docker/build-push-action@ad44023a93711e3deb337508980b4b5e9bcdc5dc
+        uses: docker/build-push-action@ca877d9245402d1537745e0e356eab47c3520991
         with:
           push: true
           file: ../../Docker/Dockerfile
